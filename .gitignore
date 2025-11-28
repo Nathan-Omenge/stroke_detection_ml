@@ -1,0 +1,53 @@
+# -------------------------
+# Python virtual environments
+# -------------------------
+stroke_venv/
+venv/
+.env/
+
+# -------------------------
+# Python cache / compiled files
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -------------------------
+# MacOS system files
+# -------------------------
+.DS_Store
+
+# -------------------------
+# Jupyter Notebook checkpoints
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# Logs and temporary output
+# -------------------------
+*.log
+logs/
+output/
+tmp/
+temp/
+
+# -------------------------
+# Model artifacts (optional)
+# If you want trained models in GitHub, remove *.pkl and *.joblib
+# -------------------------
+models/
+saved_models/
+*.pkl
+*.joblib
+
+# -------------------------
+# Streamlit / Flask temporary files
+# -------------------------
+.streamlit/
+instance/
+
+# -------------------------
+# VSCode settings (optional)
+# -------------------------
+.vscode/
